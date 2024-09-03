@@ -1,0 +1,69 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Build directories
+dist/
+build/
+out/
+.eslintcache
+
+# Coverage directory used by tools like istanbul or c8
+coverage/
+
+# Debug directory used by npm
+.npm/
+
+# Parcel cache
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# MacOS files
+.DS_Store
+
+# Temporary folders and files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# IDE-specific files (adjust as necessary for your IDE)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore dotenv environment variables file (if you don't want to share env variables)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore custom project config files (if any)
+config/local.js
+config/local.json
