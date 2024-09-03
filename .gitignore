@@ -18,6 +18,9 @@ build/
 out/
 .eslintcache
 
+# Vite cache
+.vite/
+
 # Coverage directory used by tools like istanbul or c8
 coverage/
 
@@ -67,3 +70,8 @@ temp/
 # Ignore custom project config files (if any)
 config/local.js
 config/local.json
+
+# Vite-specific
+.vite/
+.vitepress/cache
+.vite/deps
